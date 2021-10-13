@@ -1,0 +1,97 @@
+.colonneG
+{
+    width: 250px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: orangered;
+}
+
+.colonneD
+{
+    padding-left: 30px;
+    align-items: center;
+    padding-left: ;
+}
+
+
+.divform
+{
+    display: flex;
+}
+
+.Pblack
+{
+    color: black;
+    font-size: 12px;
+}
+
+h1 
+{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+h2
+{
+    color: white;
+    font-size: 20px;
+}
+
+h3
+{
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+h4
+{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+h5
+{
+    font-size: 20px;
+    color: black;
+    vertical-align: center;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+p
+{
+    font-family: Verdana;
+    font-size: 10px;
+    color: orangered;
+}
+
+.portrait
+{
+    height: 150px;
+    width: 150px; 
+    padding-top: 50px;
+}
+
+.inline
+{
+    display: inline;
+}
+
+.logo
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+    display: ;
+}
