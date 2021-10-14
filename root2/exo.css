@@ -1,7 +1,19 @@
+
+
+
+body
+{
+    background-color: white;
+    margin: 0px;
+}
+
+
+
+
 .colonneG
 {
     width: 250px;
-    text-align: center;
+    text-align: left;
     padding-left: 30px;
     padding-right: 30px;
     background-color: orangered;
@@ -11,13 +23,26 @@
 {
     padding-left: 30px;
     align-items: center;
-    padding-left: ;
 }
 
 
 .divform
 {
     display: flex;
+    align-items: stretch;
+}
+
+.competenceresp
+{
+    display: flex;
+    align-items: stretch;
+}
+
+
+.colonneresp
+{
+    display: flex;
+    align-items: stretch;
 }
 
 .divform2
@@ -25,37 +50,119 @@
     margin-right: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .colonneresp
+    {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .competenceresp
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .divform2
+    {
+        margin-right: 0px;
+    }
+}
+
+
+.divform3
+{
+    margin-top: 30px;
+    margin-bottom: 7px;
+    align-items: center;
+    display:flex
+}
+
+.divprogress
+{
+    display: flex;
+    flex-direction: ;
+    height: 13px;
+    width: 160px;
+}
+.progress1
+{
+    background-color: orangered;
+    height: 13px;
+    width: 68%;
+    
+
+}
+.progress2
+{
+    background-color:gray;
+    height: 13px;
+    width: 32%;
+}
+
+.student
+{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
 .Pblack
 {
     color: black;
     font-size: 12px;
 }
 
+.firstname
+{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+.name
+{
+    font-size: 40px;
+    text-align: center;
+}
+
 h1 
 {
     color: black;
     text-align: center;
-    font-size: 40px;
-    margin-left: 100px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px){
+    h1
+    {
+        text-align: center;
+        margin-left: 0px;
+    }
 }
 
 h2
 {
     color: white;
     font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 h3
 {
-    font-size: 25px;
+    font-size: 23px;
     color: black;
-    font-weight: 800;
-    margin-top: 10px;
+    font-weight: 800;;
 }
 
 h4
 {
-    font-size: 15px;
+    font-size: 16px;
     color: black;
     font-weight: 600;
 }
@@ -66,14 +173,13 @@ h5
     color: black;
     vertical-align: center;
     margin-right: 25px;
-    margin-top: 20px;
 }
 
 h6
 {
     font-family: Verdana;
     font-size: 12px;
-    color: orangered;
+    color: black;
     margin-bottom: 5px;
     margin-top: 10px;
 }
@@ -86,9 +192,10 @@ p
 
 .portrait
 {
-    height: 150px;
-    width: 150px; 
+    height: 200px;
+    width: 200px; 
     padding-top: 50px;
+    margin-left: 20px;
 }
 
 .inline
@@ -103,13 +210,15 @@ p
     margin-right: 20px;
 }
 
-label {
-    padding-right: 10px;
-    font-size: 1rem;
-    display: table-column;
+
+progress 
+{
+    -webkit-appearance: none;
+}
+  
+::-webkit-progress-bar 
+{
+    background-color: orange;
 }
 
-progress
-{
-    background-color: #185300;
-}
+
